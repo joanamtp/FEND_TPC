@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <a href="Form.html"> Ir para formulário</a>
+        <br>
+        <a href="multimedia.html"> Ir para Multimedia</a>
+        <br>
+        <a href="exercicio.html"> Ir para Homepage</a>
+    </nav>
+    <br>
     <h1>Formulário de Contacto do CESAE</h1>
 
     <form action="">
@@ -26,12 +34,17 @@
             <input type="radio" name="genero"> <label for="radio"> Feminino</label>
             <br>
             <br>
-
-            <label for="pass">Password:</label>
-            <input type="password" name="pass">
-            <br>
             <label for="date">Data:</label>
             <input type="date" name="data">
+            <br>
+            <label for="Turma">Turma:</label>
+            <select name="Turma">
+                <option value="1">Web Developer & Mobile</option>
+                <option value="2">Outra</option>
+            </select>
+            <br>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" cols="30" rows="3"></textarea>
             <br>
             <input type="reset" value="Limpar">
             <input type="submit" value="Enviar"> 
