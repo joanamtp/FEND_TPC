@@ -1,0 +1,42 @@
+body{
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    color: red;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+    border: 9px solid black;
+    padding: 20px; /*Margem Interna*/
+    padding-top: 50px;
+    margin: 20px; /*Margem Externa*/
+    margin-left: 20px;
+}
+
+h2{
+    color: burlywood;
+
+}
+
+#minhaImagem{
+    text-align: justify;
+}
+
+
+.corBranco{
+    color: white ;
+}
+
+h1, h2, p{
+    background-color: white;
+}
+
+div #minhaImagem{
+    background-color: aqua;
+    color: cadetblue;
+}
