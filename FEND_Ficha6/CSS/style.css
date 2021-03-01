@@ -1,0 +1,33 @@
+body{
+    background-color:#aa9a9a;
+}
+
+
+nav a{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+main div{
+    margin-top: 240px;
+    margin-bottom: 56px;
+
+}
+/*
+header img{
+ width: 100px;
+}
+
+#redessociais a{
+    font-size: 20px;
+}
+
+main{
+    margin-top: 260px;
+    margin-bottom: 56px;
+}
+
+main p{
+    text-align: justify;
+}

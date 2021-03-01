@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/logocesae.png" width="500px" alt="Logo do Cesae"> 
+    
+    <br>
+
+    <nav>
+        <a href="Form.html"> Ir para formulário</a> |
+        <a href="multimedia.html"> Ir para Multimedia</a> |
+        <a href="exercicio.html"> Ir para Homepage</a>
+    </nav>
+    <br>
+    <h1>Formulário de Contacto do CESAE</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Formulário de Contacto</legend>
+            
+            <label for="nome">Nome:</label> <input type="text" name="nome" placeholder="Insira o seu nome" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+            <br>
+            <br>
+            <label>Género:</label>
+            <br>
+            <input type="radio" name="genero"> <label for="radio"> Maculino</label>
+            <br>
+            <input type="radio" name="genero"> <label for="radio"> Feminino</label>
+            <br>
+            <br>
+            <label for="date">Data:</label>
+            <input type="date" name="data">
+            <br>
+            <label for="Turma">Turma:</label>
+            <select name="Turma">
+                <option value="1">Web Developer & Mobile</option>
+                <option value="2">Outra</option>
+            </select>
+            <br>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" cols="30" rows="3"></textarea>
+            <br>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar"> 
+        </fieldset>
+
+        <hr>
+        <footer>
+            <small><b> Copyright &copy; 2021 Cesae | Todos os direitos reservado | Desenvolvido por Joana Pereira </b></small>
+        </footer>
+    </form>
+</body>
+</html>
