@@ -2,6 +2,9 @@ body{
     background-color:#aa9a9a;
 }
 
+header{
+    background-color:#aa9a9a;
+}
 
 nav a{
     margin-left: 5px;
@@ -9,25 +12,14 @@ nav a{
     color: white;
 }
 
-main div{
-    margin-top: 240px;
-    margin-bottom: 56px;
-
-}
-/*
-header img{
- width: 100px;
-}
-
-#redessociais a{
-    font-size: 20px;
-}
-
-main{
+#Text1{
     margin-top: 260px;
-    margin-bottom: 56px;
 }
 
-main p{
-    text-align: justify;
+#Text2{
+margin-bottom: 40px;
+}
+
+footer{
+    background-color: #aa9a9a;
 }
