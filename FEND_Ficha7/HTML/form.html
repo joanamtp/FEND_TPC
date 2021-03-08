@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="..." type="...">
+
+    <!-- CSS DO BOOTSTRAP-->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+
+    <!-- MEU CSS-->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- FONTAWESOME 4.7 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+     <!--------------------CABEÇALHO------------------->
+     <header class="container text-center">
+        <div class="container text-center">
+            <img src="../IMG/Alvaro.png" width="500px" alt="AlvaroSizaViera">
+        </div>
+        <!-------------------NAVEGAÇÃO-------------------->
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item">
+                         <a class="nav-link" href="bio.html">Biografia</a>
+                         </li>
+                         <li class="nav-item">  
+                       <a class="nav-link" href="gallery.html">Galeria</a>
+                         </li>
+                         <li class="nav-item active">
+                    <a class="nav-link" href="form.html">Contactos</a>
+                         </li>
+                     </ul>
+                    </div>
+            </nav>
+
+
+    </header>
+
+
+    
+    <!--------------------CONTEÚDO-------------------->
+    <main class="container mt-2">
+
+        <div class="row align-items-center">
+          <div class="col">
+            <!--------------------------FORM DO BOOTSTRAP-------------------------->
+            <form>
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome">
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-dark">Enviar</button>
+            </form>
+
+            </div>
+
+    
+
+          <div class="col text-center">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <p>Rua do Aleixo, 53 2ºAndar</p>
+            <p>4150-043 Porto</p>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p>226 167 270</p>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <p><a id="minhaCorLink" href="mailto:cesae@cesae.pt">geral@sizavieira.pt</a></p>
+            <a id="minhaCorLink" href="https://www.instagram.com/alvaroleitesizavieira/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a id="minhaCorLink" href="https://www.facebook.com/AlvaroSizaVieira"><i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </main>
+
+    <!---------------------RODAPÉ--------------------->
+    <footer class="container position-sticky mt-5 text-center bg-light">
+        <small>All rights reserved</small>
+        
+    </footer>
+
+    
+    <!-- JAVASCRIPT DO BOOTSTRAP -->    
+    <script src="../JS/jquery-3.5.1.slim.min.js"></script>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: #efeae7;
+    font-family: 'Spartan', sans-serif;
+}
+
+footer{
+    font-size: 15px;
+}
+
+#legendaCentrada{
+    width: 250px;
+}
+
+#minhaCorLink{
+    color: black;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
